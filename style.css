@@ -115,6 +115,10 @@ header {
   width: 360px;
 }
 
+.intro-text {
+  margin-left: 50px;
+}
+
 nav {
   width: 100%;
 }
