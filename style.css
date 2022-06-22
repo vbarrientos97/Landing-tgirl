@@ -389,3 +389,53 @@ footer {
   font-family: var(--main-font);
   margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 1080px) {
+  .content-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .presentation-container {
+    width: 100%;
+    flex-direction: column;
+  }
+  .header-img {
+    height: 320px;
+    width: 320px;
+  }
+  .navigation {
+    margin: 18px auto;
+    width: 100%;
+  }
+  .nav-item {
+  text-align: center;
+  align-items: flex-start;
+  }
+  .intro-text {
+    margin: 0;
+    text-align: center;
+  }
+  .header {
+    font-size: 1.8rem;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .social-media li a {
+    flex-direction: column;
+  }
+  .social-media img {
+    margin: 0px;
+    margin-bottom: 8px;
+  }
+  .window {
+    width: 546px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .window {
+    width: 276px;
+  }
+}
